@@ -1,0 +1,40 @@
+.navbar-container {
+  background-color: #101b5c;
+  color: white;
+  padding: 2em 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 2em;
+}
+
+.menu-container {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.all-items-menu {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.fa {
+  padding-right: 3em;
+  font-size: 1.1em;
+}
+
+a {
+  display: inline-block;
+  padding: 0.75rem 0;
+  margin: 0;
+  text-decoration: none;
+  color: white;
+}
