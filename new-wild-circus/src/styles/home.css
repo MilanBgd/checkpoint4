@@ -160,3 +160,34 @@
   border-radius: 2em;
   border: solid 0.2em #ff5858;
 }
+
+/* BLOG POSTS */
+
+section {
+  margin: 4em;
+}
+
+.blog-posts-access {
+  background-color: #b92829;
+  height: 300px;
+  width: 300px;
+}
+
+.blog-posts-share {
+  background-color: #101b5c;
+  height: 300px;
+  width: 300px;
+  color: white;
+  font-weight: 100;
+  display: flex;
+  justify-content: content;
+  align-items: center;
+}
+
+.blog-posts-share h3 {
+  padding: 3em;
+}
+
+.hashtag {
+  color: #bfa357;
+}

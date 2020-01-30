@@ -34,7 +34,7 @@ function Home() {
         >
           Wild Circus
         </h1>
-        <h2></h2>
+        <h2>Un sous-titre</h2>
       </header>
 
       {/* Univers */}
@@ -122,6 +122,30 @@ function Home() {
             <div className="decouvrir-button-fix">
               <Link className="decouvrir-button">Découvrir le programme</Link>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Blog - Actualités cirque */}
+      <section className="blog">
+        <div className="title-blog">
+          <h2>Toute l'actualité du Wild Circus</h2>
+          <h3>Découvrez la vie du cirque et de nos artistes</h3>
+        </div>
+        <div className="blog-posts">
+          <div className="blog-posts-access">
+            <h3>Toute l'actualité du cirque</h3>
+            <Link to="/blog">Découvrir le blog</Link>
+          </div>
+          <div className="blog-posts-one"></div>
+          <div className="blog-posts-two"></div>
+          <div className="blog-posts-three"></div>
+          <div className="blog-posts-four"></div>
+          <div className="blog-posts-share">
+            <h3>
+              Partagez nos stories avec le hashtag
+              <span className="hashtag"> #WildCircus</span>
+            </h3>
           </div>
         </div>
       </section>
