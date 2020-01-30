@@ -1,0 +1,49 @@
+.container-newsletter {
+  display: flex;
+  justify-content: center;
+  z-index: 100;
+  position: relative;
+  top: 4em;
+}
+
+.title-newsletter {
+  background-color: #ff5858;
+  padding: 3em;
+}
+
+.title-newsletter h3 {
+  color: white;
+}
+
+.input-newsletter {
+  background-color: #b92829;
+  display: flex;
+  flex-direction: row;
+}
+
+.input-newsletter input {
+  width: 30em;
+  background-color: #b92829;
+  border: none;
+}
+
+input::placeholder {
+  color: white;
+  font-size: 1.6em;
+  font-weight: 300;
+  padding: 1em;
+}
+
+.send-btn {
+  display: flex;
+  align-items: center;
+}
+
+.send {
+  background-color: #b92829;
+  border: solid 0.3em #ff5858;
+  border-radius: 4em;
+  color: white;
+  padding: 1em;
+  margin: 1em 0;
+}

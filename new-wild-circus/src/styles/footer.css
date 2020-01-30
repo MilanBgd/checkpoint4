@@ -1,6 +1,5 @@
 .container-footer {
   background-color: black;
-  margin-top: 8em;
   display: flex;
   flex-direction: column;
   padding: 2em 0;
@@ -9,6 +8,7 @@
 .container-logo {
   display: flex;
   justify-content: center;
+  margin-top: 4em;
 }
 
 .container-logo h1 {

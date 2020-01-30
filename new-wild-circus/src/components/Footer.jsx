@@ -1,10 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Newsletter from "./Newsletter";
 import "../styles/footer.css";
 
 function Footer() {
   return (
     <div>
+      <Newsletter />
       <div className="container-footer">
         <div className="container-logo">
           <h1>Logo</h1>
