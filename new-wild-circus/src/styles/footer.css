@@ -1,0 +1,32 @@
+.container-footer {
+  background-color: black;
+  margin-top: 8em;
+  display: flex;
+  flex-direction: column;
+  padding: 2em 0;
+}
+
+.container-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.container-logo h1 {
+  color: white;
+}
+
+.container-menu-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.menu-footer {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.item {
+  margin-left: 3em;
+}
