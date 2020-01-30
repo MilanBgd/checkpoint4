@@ -1,0 +1,162 @@
+.app-header {
+  background-image: url("../assets/wild-circus-header.jpg");
+  height: 80vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-header {
+  color: white;
+  font-size: 4em;
+  letter-spacing: 0.2em;
+}
+
+.title-description {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  margin-top: 1.3em;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  font-weight: 200;
+  margin: 2em 15em;
+  line-height: 1.5em;
+}
+
+/* Advantages */
+
+.container-advantages {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 4em 4em;
+}
+
+.advantage-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.advantage-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.advantage-three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.advantage-four {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-advantage {
+  padding: 1em 0;
+}
+
+.description-advantage {
+  padding: 0 1.8em;
+}
+
+/* Représentations */
+
+.title-representation {
+  display: flex;
+  justify-content: center;
+}
+
+.container-representations {
+  background-color: #101b5c;
+  margin: 3em 11em 0 11em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8em;
+}
+
+.container-representation-one {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-representation-two {
+  display: flex;
+  flex-direction: column;
+}
+
+.representation_first-title {
+  color: #dbb43b;
+  display: flex;
+  justify-content: center;
+  padding-top: 1em;
+}
+
+.representation_two-title {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 1em;
+}
+
+.representation_link-geolocalisation {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 1em;
+}
+
+.img-representations {
+  display: flex;
+  align-self: center;
+}
+
+/* Aller plus loin */
+
+.container-more {
+  background-color: #b92829;
+  margin: 0em 11em;
+  height: 6em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-buttons-more {
+  display: flex;
+  justify-content: center;
+}
+
+.reservation-button-fix {
+  display: flex;
+  justify-content: center;
+}
+
+.reservation-button {
+  padding: 1em;
+  border-radius: 2em;
+  border: solid 0.2em #ff5858;
+}
+
+.decouvrir-button-fix {
+  display: flex;
+  justify-content: center;
+  margin-left: 3em;
+}
+
+.decouvrir-button {
+  padding: 1em;
+  border-radius: 2em;
+  border: solid 0.2em #ff5858;
+}
